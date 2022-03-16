@@ -20,4 +20,16 @@ export const Container = styled.div`
     font-size: 24px;
     line-height: 32px;
   }
+
+  .containerButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 40px;
+
+    button {
+      margin-right: 16px;
+    }
+  }
 `
